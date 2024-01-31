@@ -1,0 +1,90 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+
+}
+main {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: inherit;
+}
+
+img.brandlogo{
+    width: 191.2px;
+    height: 65.6px;
+    margin: 0 0 20px 0;
+}
+
+.text   {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    color: #d64933; 
+    padding: 20px 0 20px 0;
+}
+
+h1{
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #d64933; 
+    border-radius: 4px;
+}
+
+button {
+    background-color: #911300; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #350600; 
+}
+
+p{
+    padding: 10px 0 0 0;
+}
+
+
+.img{
+    height: inherit;
+    width: 100%;
+}
+

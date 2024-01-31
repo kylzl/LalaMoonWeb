@@ -1,0 +1,128 @@
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    body{
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: grid;
+        grid-template-columns: 250px auto;
+    }
+    .brand{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 40px 0;
+    }
+
+    .brand img{
+        width: 191.2px;
+        height: 65.6px;
+    }
+
+    aside{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #350600;
+    }
+
+    .nav-item, .log-out{
+        color: #fff;  
+        border: 1px solid #d64933;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 180px;
+    } 
+
+    #userprofile{
+    background-color: #973324;
+    }
+
+    .nav-item:hover, .log-out:hover, #recipes{
+    background-color: #973324;
+    }
+
+    main{
+        gap: 20px;
+        margin: 20px;
+    }
+    .recipe-item img{
+        height: 100px ;
+        width: 100px ;
+    }
+
+    .categories{
+        display: grid;
+        grid-template-columns: auto 15%;
+        align-items: center;
+    }
+    .categories:hover{
+        background-color: #e2e1e1;
+    }
+
+    .recipe-item img:hover{
+        opacity: 90%;
+    }
+
+    .recipe-item{
+        display: flex;
+        margin: 10px;
+    }
+
+    .description{
+        color: #000000;
+        margin: 0 0 0 10px;
+        width: 90%;
+    }
+
+    h3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h3 p{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .add{
+        border: 1px solid #911300;
+        color: #911300;
+        height: 60px;
+        padding: 0 10px 0 10px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+    .add:hover{
+        color: #fff;
+        background-color: #911300;
+    }
+
+    .edit, .view{
+        display: flex;
+        justify-content: center;
+    }
+
+    .edit a, .blue-button{
+        text-align: center;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 10px; 
+        color: #fff;
+        margin: 0 5px 0 0;
+        width: fit-content;
+    }
+    .blue-button{
+        background-color: rgb(1, 19, 209);
+      }
+    .delete{
+        background-color: #d64933;
+    }

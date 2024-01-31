@@ -1,0 +1,203 @@
+*{
+  text-decoration: none;
+} 
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+.brand{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 40px 0;
+}
+
+.brand img{
+  width: 191.2px;
+  height: 65.6px;
+}
+
+
+aside{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #350600;
+}
+
+.nav-item, .log-out{
+  color: #fff;  
+  border: 1px solid #d64933;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+} 
+
+.nav-item:hover, .log-out:hover, #dashboard{
+  background-color: #973324;
+}
+
+h1 {
+  color: #ff5151;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background-color: #fff;
+}
+
+.weladmin{
+  width: 40%;
+  margin-left: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+    font-family: "poppins","san-serif";
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.weladmin img{
+  height: 300px;
+  width: auto;
+}
+
+.profile {
+  display: flex;
+  width:inherit;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border: solid 2px #973324;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.steps{
+  font-family: "poppins","san-serif";
+  font-size: 18px;
+  margin-top: 15px;
+  color: black;
+}
+.viewed{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+.views{
+  font-family: "poppins","san-serif";
+  margin-top: 5px;
+  font-size: 25px;
+}
+.total{
+  font-size: 30px;
+  width:inherit;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border: solid 2px #973324;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.totalrecipe{
+  font-size: 30px;
+  width:inherit;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  border: solid 2px #973324;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.profile img {
+  width: 100px;
+  height: 150px;
+}
+
+
+.profile p {
+  margin: 5px;
+  color: #686767;
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffccb4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* 
+.name{
+  display: flex:
+  align-items: center;
+  gap: 5px;
+} */
+
+label {
+  display: block;
+  margin: 8px 0 8px 0;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.button-container{
+  text-align: center;
+}
+
+button {
+  background-color: #d64933;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #973324;
+}
+
+.another-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.finalrecipe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recipetotal{
+    font-family: "poppins","san-serif";
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.username{
+  padding: 20px 0 0 20px;
+  font-size: 20px;
+  margin: 0;
+  width: 400px;
+}
