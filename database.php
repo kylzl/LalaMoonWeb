@@ -3,9 +3,9 @@
     require 'create-database-table.php';
 
     $servername = "localhost";
-    $dbusername = "root";
-    $dbpassword = "";
-    $dbname = "lalamoonDB";
+    $dbusername = "dfoiwidm_roa";
+    $dbpassword = "liezlkaye72317";
+    $dbname = "dfoiwidm_lalamoon";
 
     $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 
