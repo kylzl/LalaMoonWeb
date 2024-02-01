@@ -2,7 +2,6 @@
 <?php
 
     require 'database.php';
-    require 'create-database-table.php';
 
 //  gets form data from signup.php
 if ($_SERVER["REQUEST_METHOD"] == "POST") { 
