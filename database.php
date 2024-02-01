@@ -1,7 +1,5 @@
 <?php
 
-    require 'create-database-table.php';
-
     $servername = "localhost";
     $dbusername = "dfoiwidm_roa";
     $dbpassword = "liezlkaye72317";
